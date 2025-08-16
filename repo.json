@@ -1,7 +1,62 @@
 {
   "name": "🌈 PrismRepo 🌈",
   "description": "A colorful repo with the best tweaked apps & hidden gems ✨",
-  "cover": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/PrismRepo.jpg",
+  "cover": "{
+  "name": "🌈 PrismRepo",
+  "identifier": "com.ellis.prismrepo",
+  "sourceURL": "https://github.com/ellis-roscoe/PrismRepo/blob/main/repo.json",
+  "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/PrismRepo.JPG",
+  "apps": [
+    {
+      "name": "HDFlix",
+      "bundleIdentifier": "com.hdflix.app",
+      "developerName": "HDFlix Team",
+      "version": "v1.0.0",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG"
+    },
+    {
+      "name": "Instagram",
+      "bundleIdentifier": "com.instagram.app",
+      "developerName": "Meta Platforms, Inc.",
+      "version": "v1.0.0",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG"
+    },
+    {
+      "name": "Spotify",
+      "bundleIdentifier": "com.spotify.app",
+      "developerName": "Spotify Ltd.",
+      "version": "v1.0.0",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG"
+    },
+    {
+      "name": "TikTok",
+      "bundleIdentifier": "com.tiktok.app",
+      "developerName": "ByteDance Ltd.",
+      "version": "v1.0.0",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
+    },
+    {
+      "name": "WhatsApp",
+      "bundleIdentifier": "com.whatsapp.app",
+      "developerName": "Meta Platforms, Inc.",
+      "version": "v1.0.0",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG"
+    },
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.youtube.app",
+      "developerName": "Google LLC",
+      "version": "v1.0.0",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Youtube.Oled.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG"
+    }
+  ]
+}",
   "apps": [
     {
       "name": "HDFlix",
