@@ -1,6 +1,6 @@
 {
-  "name": "🌈 PrismaticRepo",
-  "identifier": "com.ellis.prismaticrepo",
+  "name": "🌈 PrismRepo",
+  "identifier": "com.ellis.prismrepo",
   "sourceURL": "https://github.com/ellis-roscoe/PrismRepo/blob/main/repo.json",
   "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/PrismRepo.jpg",
   "apps": [
@@ -48,15 +48,6 @@
       "localizedDescription": "Download TikToks directly, hide ads, and bypass region locks with mod features.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
       "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
-    },
-    {
-      "name": "HDOPlay",
-      "bundleIdentifier": "com.hdoplay.app",
-      "developerName": "HDOPlay Team",
-      "version": "v1.0.0",
-      "localizedDescription": "Smooth streaming of thousands of movies and TV shows, with multiple servers and download support.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HDOPlay.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/HdoPlay.PNG"
     },
     {
       "name": "HDFlix",
