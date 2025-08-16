@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.hdflix.app",
       "developerName": "HDFlix Team",
       "version": "v1.0.0",
-      "localizedDescription": "Stream the latest movies and TV shows without ads, in high quality.",
+      "localizedDescription": "Movies and TV shows from 5+ streaming services for free.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
       "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG"
     },
@@ -18,7 +18,7 @@
       "bundleIdentifier": "com.instagram.app",
       "developerName": "Meta Platforms, Inc.",
       "version": "v1.0.0",
-      "localizedDescription": "The popular photo and video sharing app, with added features like regram support.",
+      "localizedDescription": "The all in one tweak for Instagram, Regram.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
       "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG"
     },
@@ -27,7 +27,7 @@
       "bundleIdentifier": "com.spotify.app",
       "developerName": "Spotify Ltd.",
       "version": "v1.0.0",
-      "localizedDescription": "Listen to millions of songs with premium features unlocked.",
+      "localizedDescription": "Spotify with premium unlocked.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
       "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG"
     },
@@ -36,7 +36,7 @@
       "bundleIdentifier": "com.tiktok.app",
       "developerName": "ByteDance Ltd.",
       "version": "v1.0.0",
-      "localizedDescription": "Short videos and viral trends with extra mod features included.",
+      "localizedDescription": "The all in one tweak for TikTok, BH Plus.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
       "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
     },
@@ -45,7 +45,7 @@
       "bundleIdentifier": "com.whatsapp.app",
       "developerName": "Meta Platforms, Inc.",
       "version": "v1.0.0",
-      "localizedDescription": "Chat, call, and share media — with Watusi tweaks for extra customization.",
+      "localizedDescription": "Whatsapp Watusi, multiple features such as stealth mode.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
       "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG"
     },
@@ -54,7 +54,7 @@
       "bundleIdentifier": "com.youtube.app",
       "developerName": "Google LLC",
       "version": "v1.0.0",
-      "localizedDescription": "Watch and upload videos with OLED-friendly dark mode and premium features.",
+      "localizedDescription": "YouTube with Premium unlocked.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Youtube.Oled.ipa",
       "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG"
     }
