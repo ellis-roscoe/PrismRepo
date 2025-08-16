@@ -1,56 +1,11 @@
 {
-  "name": "🌈 PrismRepo",
-  "identifier": "com.ellis.prismrepo",
+  "name": "🌈 PrismaticRepo",
+  "identifier": "com.ellis.prismaticrepo",
   "sourceURL": "https://github.com/ellis-roscoe/PrismRepo/blob/main/repo.json",
   "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/PrismRepo.jpg",
   "apps": [
     {
-      "name": "HDFlix",
-      "bundleIdentifier": "com.hdflix.app",
-      "developerName": "HDFlix Team",
-      "version": "v1.0.0",
-      "localizedDescription": "Stream the latest movies and TV shows ad-free in HD—with no subscription.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
-      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG"
-    },
-    {
-      "name": "Instagram Regram",
-      "bundleIdentifier": "com.instagram.app",
-      "developerName": "Meta Platforms, Inc.",
-      "version": "v323.0",
-      "localizedDescription": "Add reposting and media download options to Instagram, no ads required.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
-      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG"
-    },
-    {
-      "name": "EeveeSpotify",
-      "bundleIdentifier": "com.spotify.app",
-      "developerName": "Spotify Ltd.",
-      "version": "v5.8.7",
-      "localizedDescription": "Open-source mod that unlocks Spotify Premium: no ads, unlimited skips, lyrics support, offline playback.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG"
-    },
-    {
-      "name": "TikTok Unicorn",
-      "bundleIdentifier": "com.tiktok.app",
-      "developerName": "ByteDance Ltd.",
-      "version": "v35.1.0",
-      "localizedDescription": "Download TikToks directly, hide ads, and unlock region-locked content seamlessly.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
-    },
-    {
-      "name": "WhatsApp Watusi 3",
-      "bundleIdentifier": "net.whatsapp.WhatsApp",
-      "developerName": "Fouad Raheb",
-      "version": "v25.17.6",
-      "localizedDescription": "Super-tweak WhatsApp with message scheduling, auto-reply, freeze last seen, status downloads, UI theming, call recording, and more.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG"
-    },
-    {
-      "name": "YouTube OLED",
+      "name": "YouTube",
       "bundleIdentifier": "com.youtube.app",
       "developerName": "Google LLC",
       "version": "v19.31.2",
@@ -59,12 +14,66 @@
       "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG"
     },
     {
+      "name": "Spotify",
+      "bundleIdentifier": "com.spotify.app",
+      "developerName": "Spotify Ltd.",
+      "version": "v8.9.6",
+      "localizedDescription": "EeveeSpotify unlocks Spotify Premium: ad-free, unlimited skips, and custom lyrics support.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG"
+    },
+    {
+      "name": "WhatsApp",
+      "bundleIdentifier": "net.whatsapp.WhatsApp",
+      "developerName": "Meta Platforms, Inc.",
+      "version": "v25.17.6",
+      "localizedDescription": "Watusi adds message scheduling, auto-reply, freeze last seen, theming, status downloads, and more.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG"
+    },
+    {
+      "name": "Instagram",
+      "bundleIdentifier": "com.instagram.app",
+      "developerName": "Meta Platforms, Inc.",
+      "version": "v323.0",
+      "localizedDescription": "Instagram with repost and media download features, plus extra tweaks—no ads.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG"
+    },
+    {
+      "name": "TikTok",
+      "bundleIdentifier": "com.tiktok.app",
+      "developerName": "ByteDance Ltd.",
+      "version": "v35.1.0",
+      "localizedDescription": "Download TikToks directly, hide ads, and bypass region locks with mod features.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
+    },
+    {
+      "name": "HDOPlay",
+      "bundleIdentifier": "com.hdoplay.app",
+      "developerName": "HDOPlay Team",
+      "version": "v1.0.0",
+      "localizedDescription": "Smooth streaming of thousands of movies and TV shows, with multiple servers and download support.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HDOPlay.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/HdoPlay.PNG"
+    },
+    {
+      "name": "HDFlix",
+      "bundleIdentifier": "com.hdflix.app",
+      "developerName": "HDFlix Team",
+      "version": "v4.0",
+      "localizedDescription": "Curate your own playlists, view show details, and organize private content with passcode-protected lists.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG"
+    },
+    {
       "name": "GBox",
       "bundleIdentifier": "com.gbox.app",
       "developerName": "GBox Team",
       "version": "v5.7.6",
-      "localizedDescription": "Powerful iOS sideloading and app management tool — sign/install apps directly on-device with no computer needed.",
-      "downloadURL": "https://cdn.gbox.run/d/res/GBox_v5.7.6.ipa",
+      "localizedDescription": "Install and manage sideloaded apps directly on-device—no computer needed.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/GBox.ipa",
       "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/GBox.PNG"
     }
   ]
