@@ -2,7 +2,7 @@
   "repo": {
     "name": "🌈 PrismRepo",
     "description": "A collection of apps and tweaks",
-    "cover": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/PrismRepo.JPG"
+    "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/PrismRepo.JPG"
   },
   "apps": [
     {
