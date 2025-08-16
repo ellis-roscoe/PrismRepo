@@ -1,5 +1,5 @@
-# PrismRepo
-An iOS app repo made for e-sign and other IPA installing services
+# PrismaticRepo Early Access
+An Early Access iOS app repository
 
 Repository URL
 https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON
