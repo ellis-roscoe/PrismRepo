@@ -1,73 +1,61 @@
 {
-  "name": "PrismRepo",
-  "identifier": "com.ellisroscoe.prismrepo",
-  "sourceURL": "https://ellis-roscoe.github.io/PrismRepo/repo.json",
+  "name": "🌈 PrismRepo 🌈",
+  "description": "A colorful repo with the best tweaked apps & hidden gems ✨",
+  "cover": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/PrismRepo.jpg",
   "apps": [
     {
       "name": "HDFlix",
-      "bundleIdentifier": "com.hdflix.app",
-      "developerName": "Unknown",
-      "version": "2.0",
-      "versionDate": "2025-08-16",
+      "bundleIdentifier": "com.prismrepo.hdflix",
+      "developer": "PrismRepo",
+      "version": "v1.0.0",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
-      "localizedDescription": "Stream movies and shows in HD without ads.",
-      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6lIYuuWupBKyTgLTrMID7Mm0Sc0V2ot5RVQ&s",
-      "category": "Media"
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG",
+      "localizedDescription": "Stream movies & shows in HD without ads 🎬"
     },
     {
       "name": "Instagram",
-      "bundleIdentifier": "com.instagram.app",
-      "developerName": "Instagram Inc.",
-      "version": "Regram",
-      "versionDate": "2025-08-16",
+      "bundleIdentifier": "com.prismrepo.instagramregram",
+      "developer": "PrismRepo",
+      "version": "v1.0.0",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
-      "localizedDescription": "Enhanced Instagram client with regram features.",
-      "iconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/250px-Instagram_logo_2022.svg.png",
-      "category": "Social"
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG",
+      "localizedDescription": "Tweaked Instagram with reposting & extras 📸"
     },
     {
       "name": "Spotify",
-      "bundleIdentifier": "com.spotify.client",
-      "developerName": "Spotify Ltd.",
-      "version": "Premium",
-      "versionDate": "2025-08-16",
+      "bundleIdentifier": "com.prismrepo.spotify",
+      "developer": "PrismRepo",
+      "version": "v1.0.0",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
-      "localizedDescription": "Listen to music with premium features unlocked.",
-      "iconURL": "https://imgs.search.brave.com/FaDyLnZaxUGMNtspzXPJnXcBMBENC6GsfgAbRvXg3IY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZyZWVwaWsuY29tLzI1Ni80MDk2LzQwOTY0NjIucG5nP3NlbXQ9YWlzX3doaXRlX2xhYmVs",
-      "category": "Music"
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG",
+      "localizedDescription": "Spotify with premium features unlocked 🎶"
     },
     {
       "name": "TikTok",
-      "bundleIdentifier": "com.tiktok.app",
-      "developerName": "TikTok Inc.",
-      "version": "Plus",
-      "versionDate": "2025-08-16",
+      "bundleIdentifier": "com.prismrepo.tiktokplus",
+      "developer": "PrismRepo",
+      "version": "v1.0.0",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
-      "localizedDescription": "Enjoy TikTok with added features and no limits.",
-      "iconURL": "https://static.wikia.nocookie.net/tiktok/images/e/eb/TikTok_Logo.png/revision/latest?cb=20210816124125",
-      "category": "Social"
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG",
+      "localizedDescription": "TikTok with no ads, downloader & tweaks 📱"
     },
     {
       "name": "WhatsApp",
-      "bundleIdentifier": "net.whatsapp.app",
-      "developerName": "WhatsApp Inc.",
-      "version": "Watusi",
-      "versionDate": "2025-08-16",
+      "bundleIdentifier": "com.prismrepo.whatsappwatusi",
+      "developer": "PrismRepo",
+      "version": "v1.0.0",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
-      "localizedDescription": "Customized WhatsApp client with extra features.",
-      "iconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/250px-WhatsApp_Logo_green.svg.png",
-      "category": "Messaging"
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG",
+      "localizedDescription": "WhatsApp with Watusi features unlocked 💬"
     },
     {
       "name": "YouTube",
-      "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "Google LLC",
-      "version": "OLED",
-      "versionDate": "2025-08-16",
+      "bundleIdentifier": "com.prismrepo.youtubeoled",
+      "developer": "PrismRepo",
+      "version": "v1.0.0",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Youtube.Oled.ipa",
-      "localizedDescription": "YouTube client with OLED dark mode.",
-      "iconURL": "https://static.wikia.nocookie.net/youtube/images/8/84/YouTube.jpg/revision/latest?cb=20240813213153",
-      "category": "Media"
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG",
+      "localizedDescription": "YouTube with OLED mode + premium tweaks ▶️"
     }
   ]
 }
