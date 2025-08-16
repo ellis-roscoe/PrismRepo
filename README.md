@@ -1,6 +1,12 @@
 # PrismRepo
 An iOS app repo made for e-sign and other IPA installing services
 
+Repository URL
+https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON
+
+![image](https://github.com/user-attachments/assets/da621015-2f28-44c8-93f9-9bc321d0f3c4)
+
+
 Currently, there are _seven_ apps
 > HDFlix (No Ads)
 
