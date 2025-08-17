@@ -1,71 +1,80 @@
 {
-  "name": "🌈 PrismRepo",
-  "identifier": "com.ellis.prismrepo",
+  "name": "🌈 Prismatic Repo",
+  "identifier": "com.ellis.prismaticrepo",
   "sourceURL": "https://github.com/ellis-roscoe/PrismRepo/blob/main/repo.json",
   "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/PrismRepo.jpg",
   "apps": [
-    {
-      "name": "YouTube",
-      "bundleIdentifier": "com.youtube.app",
-      "developerName": "Google LLC",
-      "version": "v19.31.2",
-      "localizedDescription": "Enhanced YouTube with OLED-friendly black theme, background playback, and ad-free viewing.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Youtube.Oled.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG"
-    },
-    {
-      "name": "Spotify",
-      "bundleIdentifier": "com.spotify.app",
-      "developerName": "Spotify Ltd.",
-      "version": "v8.9.6",
-      "localizedDescription": "EeveeSpotify unlocks Spotify Premium: ad-free, unlimited skips, and custom lyrics support.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG"
-    },
-    {
-      "name": "WhatsApp",
-      "bundleIdentifier": "net.whatsapp.WhatsApp",
-      "developerName": "Meta Platforms, Inc.",
-      "version": "v25.17.6",
-      "localizedDescription": "Watusi adds message scheduling, auto-reply, freeze last seen, theming, status downloads, and more.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG"
-    },
-    {
-      "name": "Instagram",
-      "bundleIdentifier": "com.instagram.app",
-      "developerName": "Meta Platforms, Inc.",
-      "version": "v323.0",
-      "localizedDescription": "Instagram with repost and media download features, plus extra tweaks—no ads.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
-      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG"
-    },
-    {
-      "name": "TikTok",
-      "bundleIdentifier": "com.tiktok.app",
-      "developerName": "ByteDance Ltd.",
-      "version": "v35.1.0",
-      "localizedDescription": "Download TikToks directly, hide ads, and bypass region locks with mod features.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
-      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
-    },
-    {
-      "name": "HDFlix",
-      "bundleIdentifier": "com.hdflix.app",
-      "developerName": "HDFlix Team",
-      "version": "v4.0",
-      "localizedDescription": "Curate your own playlists, view show details, and organize private content with passcode-protected lists.",
-      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
-      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG"
-    },
     {
       "name": "GBox",
       "bundleIdentifier": "com.gbox.app",
       "developerName": "GBox Team",
       "version": "v5.7.6",
-      "localizedDescription": "Install and manage sideloaded apps directly on-device—no computer needed.",
+      "localizedDescription": "A powerful sideloading and app management tool for iOS—install and manage apps entirely from your device, no computer needed.",
       "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/GBox.ipa",
       "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/GBox.PNG"
+    },
+    {
+      "name": "HDFlix (No Ads)",
+      "bundleIdentifier": "com.hdflix.app",
+      "developerName": "HDFlix Team",
+      "version": "v1.0.0",
+      "localizedDescription": "Stream the latest movies and TV shows ad-free and in HD, with private playlists and passcode-protected lists.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG"
+    },
+    {
+      "name": "Instagram Regram",
+      "bundleIdentifier": "com.instagram.app",
+      "developerName": "Meta Platforms, Inc.",
+      "version": "v323.0",
+      "localizedDescription": "Instagram enhanced with reposting, media downloads, and ad removal—unlock extra features with one tap.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG"
+    },
+    {
+      "name": "Spotify (EeveeSpotify)",
+      "bundleIdentifier": "com.spotify.app",
+      "developerName": "Spotify Ltd.",
+      "version": "v8.9.6",
+      "localizedDescription": "EeveeSpotify unlocks all Spotify Premium perks—no ads, unlimited skips, and custom lyrics support.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG"
+    },
+    {
+      "name": "TikTok (BH++/Plus)",
+      "bundleIdentifier": "com.tiktok.app",
+      "developerName": "ByteDance Ltd.",
+      "version": "v35.1.0",
+      "localizedDescription": "TikTok with ad removal, region unlock, and direct video downloads—keep scrolling without interruptions.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG"
+    },
+    {
+      "name": "WhatsApp Watusi",
+      "bundleIdentifier": "net.whatsapp.WhatsApp",
+      "developerName": "Meta Platforms, Inc.",
+      "version": "v25.17.6",
+      "localizedDescription": "Watusi-enhanced WhatsApp includes message scheduling, auto-reply, freeze last seen, custom themes, status downloads, and more.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG"
+    },
+    {
+      "name": "YouTube (YouTube Reborn/OLED)",
+      "bundleIdentifier": "com.youtube.app",
+      "developerName": "Google LLC",
+      "version": "v19.31.2",
+      "localizedDescription": "YouTube with OLED-friendly dark mode, background playback, and ad-free viewing for the true binge experience.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Youtube.Oled.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG"
+    },
+    {
+      "name": "What The Golf? (Apple Arcade Crack)",
+      "bundleIdentifier": "com.whatthegolf.app",
+      "developerName": "Triband",
+      "version": "v1.0.0",
+      "localizedDescription": "⚡ Cracked Apple Arcade game ⚡ — enjoy Triband’s award-winning anti-golf comedy without an Apple Arcade subscription. A physics-driven parody where you launch everything from cats to couches instead of golf balls, packed with surreal humor, seasonal events, and endless surprises.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/What.The.Golf.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatTheGolf.WEBP"
     }
   ]
 }
