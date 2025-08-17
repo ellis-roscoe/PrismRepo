@@ -6,136 +6,122 @@
   <title>🌈 Prismatic Repo</title>
   <style>
     body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: linear-gradient(135deg, #6d28d9, #db2777);
+      color: #fff;
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-      color: white;
-      text-align: center;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     header {
-      padding: 2rem;
+      text-align: center;
+      padding: 2rem 1rem;
     }
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      margin: 0;
+      font-size: 2rem;
     }
     header p {
       font-size: 1rem;
-      opacity: 0.85;
+      opacity: 0.8;
     }
-    .repo-box {
-      background: rgba(255, 255, 255, 0.1);
+    .repo-link {
+      background: #111;
+      border: none;
+      padding: 0.8rem 1.2rem;
       border-radius: 8px;
-      padding: 0.8rem 1rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-top: 0.8rem;
-      font-family: monospace;
-    }
-    .copy-btn {
-      background: #ffffff22;
-      border: 1px solid white;
-      padding: 0.3rem 0.7rem;
-      border-radius: 6px;
-      color: white;
+      font-size: 0.9rem;
+      margin: 1rem auto;
       cursor: pointer;
-      transition: background 0.2s;
-      font-size: 0.8rem;
-    }
-    .copy-btn:hover {
-      background: white;
-      color: #2575fc;
+      display: block;
+      text-align: center;
+      max-width: 90%;
+      word-break: break-all;
     }
     .apps {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .app-card {
-      background: rgba(0, 0, 0, 0.25);
+      grid-template-columns: 1fr;
+      gap: 1rem;
       padding: 1rem;
+      width: 100%;
+      max-width: 500px;
+    }
+    .app {
+      background: rgba(0, 0, 0, 0.4);
       border-radius: 12px;
-      text-align: left;
-      transition: transform 0.2s ease;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
-    .app-card:hover {
-      transform: translateY(-4px);
-    }
-    .app-card img {
-      width: 64px;
-      height: 64px;
+    .app img {
+      width: 60px;
+      height: 60px;
       border-radius: 12px;
-      margin-bottom: 1rem;
+      object-fit: cover;
     }
-    .app-card h3 {
+    .app-info {
+      flex: 1;
+    }
+    .app-info h2 {
       margin: 0;
       font-size: 1.2rem;
     }
-    .app-card p {
+    .app-info p {
+      margin: 0.3rem 0;
       font-size: 0.9rem;
       opacity: 0.9;
-      margin: 0.5rem 0 1rem;
     }
-    .install-btn {
-      background: #ffffff22;
-      border: 1px solid white;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
+    .download {
+      background: #10b981;
       color: white;
       text-decoration: none;
-      font-weight: bold;
-      transition: background 0.2s;
-    }
-    .install-btn:hover {
-      background: white;
-      color: #2575fc;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>🌈 Prismatic Repo</h1>
-    <p>Your gateway to cracked, tweaked & modded apps ⚡</p>
-    <div class="repo-box">
-      <span id="repo-link">https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON</span>
-      <button class="copy-btn" onclick="copyRepo()">Copy</button>
-    </div>
+    <p>Your hub for tweaked & modded apps</p>
+    <button class="repo-link" onclick="copyLink()">
+      📋 Copy Repo Link
+    </button>
   </header>
 
-  <section class="apps">
-    <div class="app-card">
-      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/GBox.PNG" alt="GBox">
-      <h3>GBox</h3>
-      <p>iOS signing tool that makes sideloading easy. Bypass App Store restrictions and sign IPAs on-device.</p>
-      <a class="install-btn" href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/GBox.ipa">Install</a>
-    </div>
-
-    <div class="app-card">
-      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Spotify.PNG" alt="Spotify">
-      <h3>Spotify (Eevee)</h3>
-      <p>Premium unlocked — ad-free listening, unlimited skips, and downloads without a subscription.</p>
-      <a class="install-btn" href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa">Install</a>
-    </div>
-
-    <div class="app-card">
-      <img src="https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatTheGolf.WEBP" alt="What The Golf?">
-      <h3>What The Golf?</h3>
-      <p>A cracked Apple Arcade game — the anti-golf comedy where every level flips the rules on its head ⛳😂.</p>
-      <a class="install-btn" href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/What.The.Golf.ipa">Install</a>
-    </div>
-  </section>
+  <main class="apps" id="apps"></main>
 
   <script>
-    function copyRepo() {
-      const link = document.getElementById("repo-link").innerText;
-      navigator.clipboard.writeText(link).then(() => {
-        alert("✅ Repo link copied to clipboard!");
+    const repoURL = "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON";
+
+    function copyLink() {
+      navigator.clipboard.writeText(repoURL).then(() => {
+        alert("Repo link copied!");
       });
     }
+
+    fetch(repoURL)
+      .then(res => res.json())
+      .then(data => {
+        const appsContainer = document.getElementById('apps');
+        data.apps.forEach(app => {
+          const appDiv = document.createElement('div');
+          appDiv.className = 'app';
+          appDiv.innerHTML = `
+            <img src="${app.iconURL}" alt="${app.name} icon">
+            <div class="app-info">
+              <h2>${app.name}</h2>
+              <p>${app.localizedDescription}</p>
+              <a class="download" href="${app.downloadURL}">⬇ Download</a>
+            </div>
+          `;
+          appsContainer.appendChild(appDiv);
+        });
+      });
   </script>
 </body>
 </html>
