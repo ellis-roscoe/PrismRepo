@@ -14,6 +14,15 @@
       "iconURL": "https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/GBox.PNG"
     },
     {
+      "name": "Feather",
+      "bundleIdentifier": "com.feather.app",
+      "developerName": "Feather Team",
+      "version": "v1.0.0",
+      "localizedDescription": "Feather is a lightweight sideloader designed to make installing and managing iOS apps fast, clean, and simple.",
+      "downloadURL": "https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Feather.ipa",
+      "iconURL": "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Feather.AVIF"
+    },
+    {
       "name": "HDFlix (No Ads)",
       "bundleIdentifier": "com.hdflix.app",
       "developerName": "HDFlix Team",
