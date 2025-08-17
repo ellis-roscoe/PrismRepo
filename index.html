@@ -3,151 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🌌 Prismatic Repo</title>
+  <title>🌈 Prismatic Repo</title>
   <style>
     body {
+      font-family: "Inter", sans-serif;
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      padding: 0;
+      background: linear-gradient(135deg, #1e1e2f, #2e2e48);
       color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     header {
-      background: linear-gradient(90deg, #7b2ff7, #f107a3);
       text-align: center;
-      padding: 1.2em;
-      font-size: 1.8em;
-      font-weight: bold;
-      color: white;
-      letter-spacing: 1px;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.8;
     }
 
     .repo-link {
-      background: #222;
-      padding: 1em;
-      text-align: center;
-      font-size: 0.95em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 0.6em;
-      flex-wrap: wrap;
+      margin: 1rem;
     }
 
-    .repo-link code {
-      background: #333;
-      padding: 0.4em 0.6em;
-      border-radius: 6px;
-      font-family: monospace;
-      word-break: break-all;
-    }
-
-    .copy-btn {
-      padding: 0.4em 0.8em;
+    button {
+      padding: 10px 18px;
       border: none;
-      border-radius: 6px;
-      background: linear-gradient(90deg, #f107a3, #7b2ff7);
-      color: #fff;
-      font-weight: bold;
+      border-radius: 8px;
+      background: #ff4d6d;
+      color: white;
+      font-size: 1rem;
       cursor: pointer;
-      transition: transform 0.2s;
+      transition: 0.2s;
     }
-    .copy-btn:hover {
-      transform: scale(1.05);
+
+    button:hover {
+      background: #ff3355;
     }
 
     .apps {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.2em;
-      padding: 1.5em;
+      gap: 1.5rem;
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 1200px;
     }
 
-    .card {
-      background: #181818;
+    .app-card {
+      background: #2a2a40;
       border-radius: 12px;
-      padding: 1.2em;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      padding: 1rem;
       text-align: center;
-      transition: transform 0.2s ease-in-out;
-    }
-    .card:hover {
-      transform: translateY(-4px);
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
     }
 
-    .card img {
-      width: 70px;
-      height: 70px;
-      border-radius: 14px;
-      margin-bottom: 0.8em;
+    .app-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 16px;
+      margin-bottom: 1rem;
     }
 
-    .card h3 {
-      margin: 0.3em 0;
+    .app-card h3 {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
     }
 
-    .card p {
-      font-size: 0.9em;
-      color: #aaa;
-      margin-bottom: 1em;
+    .app-card p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+      margin-bottom: 1rem;
     }
 
     .download-btn {
-      padding: 0.6em 1.2em;
-      border: none;
-      border-radius: 8px;
-      background: linear-gradient(90deg, #7b2ff7, #f107a3);
-      color: white;
-      font-weight: bold;
+      background: #4cafef;
+      padding: 8px 14px;
+      border-radius: 6px;
       text-decoration: none;
-      transition: opacity 0.2s;
+      color: white;
+      font-size: 0.9rem;
+      transition: 0.2s;
     }
+
     .download-btn:hover {
-      opacity: 0.9;
+      background: #3399dd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      opacity: 0.7;
     }
   </style>
 </head>
 <body>
-  <header>🌌 Prismatic Repo</header>
-
-  <div class="repo-link">
-    <code id="repoURL">https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON</code>
-    <button class="copy-btn" onclick="copyRepo()">Copy</button>
-  </div>
-
-  <section class="apps">
-    <!-- Example cards (add all your apps here) -->
-    <div class="card">
-      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/GBox.PNG" alt="GBox Icon">
-      <h3>GBox</h3>
-      <p>IPA signing tool to sideload and manage apps without a computer.</p>
-      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/GBox.ipa" class="download-btn">Download</a>
+  <header>
+    <h1>🌈 Prismatic Repo</h1>
+    <p>Your hub for modded & cracked apps, games, and tools.</p>
+    <div class="repo-link">
+      <button onclick="copyLink()">📋 Copy Repo JSON</button>
     </div>
+  </header>
 
-    <div class="card">
-      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Spotify.PNG" alt="Spotify Icon">
-      <h3>Spotify (Eevee)</h3>
-      <p>Premium-like Spotify experience: no ads, skip limit removed, and more tweaks.</p>
-      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa" class="download-btn">Download</a>
-    </div>
+  <section class="apps" id="apps"></section>
 
-    <div class="card">
-      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/WhatTheGolf.WEBP" alt="What the Golf Icon">
-      <h3>What The Golf? (Cracked)</h3>
-      <p>A hilarious Apple Arcade exclusive puzzle game — now playable without a subscription.</p>
-      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/What.The.Golf.ipa" class="download-btn">Download</a>
-    </div>
-  </section>
+  <footer>
+    <p>Powered by Prismatic Repo ✨</p>
+  </footer>
 
   <script>
-    function copyRepo() {
-      const repoURL = document.getElementById("repoURL").innerText;
-      navigator.clipboard.writeText(repoURL);
-      alert("✅ Repo link copied!");
+    const repoURL = "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON";
+
+    async function loadApps() {
+      try {
+        const res = await fetch(repoURL);
+        const data = await res.json();
+        const appSection = document.getElementById("apps");
+
+        data.apps.forEach(app => {
+          const card = document.createElement("div");
+          card.className = "app-card";
+          card.innerHTML = `
+            <img src="${app.iconURL}" alt="${app.name} Icon">
+            <h3>${app.name}</h3>
+            <p>${app.localizedDescription}</p>
+            <a href="${app.downloadURL}" class="download-btn">⬇️ Download</a>
+          `;
+          appSection.appendChild(card);
+        });
+      } catch (err) {
+        console.error("Failed to load apps:", err);
+      }
     }
+
+    function copyLink() {
+      navigator.clipboard.writeText(repoURL);
+      alert("✅ Repo link copied to clipboard!");
+    }
+
+    loadApps();
   </script>
 </body>
 </html>
