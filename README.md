@@ -22,4 +22,6 @@ Currently, there are _seven_ apps
 
 > GBox (IPA Signing and Installing Service)
 
+> What The Golf? (Free Apple Arcade App)
+
 NONE OF THE APPS ARE MINE, NOR DO THEY HAVE ANY ASSOCIATION WITH ME. I HAVE SIMPLY COMPILED THEM INTO ONE REPOSITORY.
