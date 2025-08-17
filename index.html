@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🌈 Prismatic Repo</title>
+  <title>🌌 Prismatic Repo</title>
   <style>
     body {
       font-family: "Inter", sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #1e1e2f, #2e2e48);
+      background: linear-gradient(135deg, #141E30, #243B55);
       color: #fff;
       display: flex;
       flex-direction: column;
@@ -109,50 +109,91 @@
 </head>
 <body>
   <header>
-    <h1>🌈 Prismatic Repo</h1>
-    <p>Your hub for modded & cracked apps, games, and tools.</p>
+    <h1>🌌 Prismatic Repo</h1>
+    <p>Your hub for modded, cracked, and enhanced apps & games.</p>
     <div class="repo-link">
       <button onclick="copyLink()">📋 Copy Repo JSON</button>
     </div>
   </header>
 
-  <section class="apps" id="apps"></section>
+  <section class="apps">
+
+    <!-- GBox -->
+    <div class="app-card">
+      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/GBox.PNG" alt="GBox Icon">
+      <h3>GBox</h3>
+      <p>A powerful sideloading and app management tool for iOS—install and manage apps entirely from your device, no computer needed.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/GBox.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- HDFlix -->
+    <div class="app-card">
+      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/HDFlix.JPG" alt="HDFlix Icon">
+      <h3>HDFlix (No Ads)</h3>
+      <p>Stream the latest movies and TV shows ad-free and in HD, with private playlists and passcode-protected lists.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/HD.Flix.No.Ads.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- Instagram -->
+    <div class="app-card">
+      <img src="https://raw.githubusercontent.com/ellis-roscoe/PrismRepo/refs/heads/main/icons/Instagram.PNG" alt="Instagram Icon">
+      <h3>Instagram Regram</h3>
+      <p>Instagram enhanced with reposting, media downloads, and ad removal—unlock extra features with one tap.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Instagram.Regram.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- Spotify -->
+    <div class="app-card">
+      <img src="https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Spotify.PNG" alt="Spotify Icon">
+      <h3>Spotify (EeveeSpotify)</h3>
+      <p>EeveeSpotify unlocks all Spotify Premium perks—no ads, unlimited skips, and custom lyrics support.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Spotify.Eevee.Premium.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- TikTok -->
+    <div class="app-card">
+      <img src="https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/Tiktok%20.PNG" alt="TikTok Icon">
+      <h3>TikTok (BH++/Plus)</h3>
+      <p>TikTok with ad removal, region unlock, and direct video downloads—keep scrolling without interruptions.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Tiktok.BH.Plus.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- WhatsApp -->
+    <div class="app-card">
+      <img src="https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatsApp.PNG" alt="WhatsApp Icon">
+      <h3>WhatsApp Watusi</h3>
+      <p>Watusi-enhanced WhatsApp includes message scheduling, auto-reply, freeze last seen, custom themes, status downloads, and more.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Whatsapp.Watusi.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- YouTube -->
+    <div class="app-card">
+      <img src="https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/YouTube.JPG" alt="YouTube Icon">
+      <h3>YouTube (Reborn/OLED)</h3>
+      <p>YouTube with OLED-friendly dark mode, background playback, and ad-free viewing for the true binge experience.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/Youtube.Oled.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+    <!-- What The Golf -->
+    <div class="app-card">
+      <img src="https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/icons/WhatTheGolf.WEBP" alt="What The Golf Icon">
+      <h3>What The Golf? (Apple Arcade Crack)</h3>
+      <p>⚡ Cracked Apple Arcade game ⚡ — enjoy Triband’s award-winning anti-golf comedy without an Apple Arcade subscription. A physics-driven parody where you launch everything from cats to couches instead of golf balls, packed with surreal humor, seasonal events, and endless surprises.</p>
+      <a href="https://github.com/ellis-roscoe/PrismRepo/releases/download/v1.0.0/What.The.Golf.ipa" class="download-btn">⬇️ Download</a>
+    </div>
+
+  </section>
 
   <footer>
-    <p>Powered by Prismatic Repo ✨</p>
+    <p>Powered by 🌌 Prismatic Repo ✨</p>
   </footer>
 
   <script>
-    const repoURL = "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON";
-
-    async function loadApps() {
-      try {
-        const res = await fetch(repoURL);
-        const data = await res.json();
-        const appSection = document.getElementById("apps");
-
-        data.apps.forEach(app => {
-          const card = document.createElement("div");
-          card.className = "app-card";
-          card.innerHTML = `
-            <img src="${app.iconURL}" alt="${app.name} Icon">
-            <h3>${app.name}</h3>
-            <p>${app.localizedDescription}</p>
-            <a href="${app.downloadURL}" class="download-btn">⬇️ Download</a>
-          `;
-          appSection.appendChild(card);
-        });
-      } catch (err) {
-        console.error("Failed to load apps:", err);
-      }
-    }
-
     function copyLink() {
+      const repoURL = "https://github.com/ellis-roscoe/PrismRepo/raw/refs/heads/main/PrismRepo.JSON";
       navigator.clipboard.writeText(repoURL);
       alert("✅ Repo link copied to clipboard!");
     }
-
-    loadApps();
   </script>
 </body>
 </html>
